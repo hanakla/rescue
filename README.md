@@ -21,5 +21,5 @@ class YourError extends Error {}
 
 // when raises `YourError`, rescue handle and return result/
 // Otherwise, rescue is not handle error it's rethrowing.
-const result = rescue(() => /* process */, { expect: [YourError] })
+const result = rescue(() => /* process */, { expects: [YourError] })
 ```
