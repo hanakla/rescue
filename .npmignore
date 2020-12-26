@@ -1,0 +1,8 @@
+.editorconfig
+.github
+src/
+bili.config.ts
+jest.config.js
+CHANGELOG.md
+README.md
+tsconfig.json

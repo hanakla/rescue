@@ -4,7 +4,7 @@ Type safe one line try-catch handler
 ## Example
 
 ```ts
-import rescue from '@hanakla/rescue'
+import { rescue } from '@hanakla/rescue'
 
 const result = rescue(() => /* success or raise error process */)
 if (result.error) { console.warn(result.error) }

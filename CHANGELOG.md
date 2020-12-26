@@ -1,4 +1,9 @@
-### 1.0.1
+### 1.0.3
+
+- Fix published files
+- Fix type definition excluded
+
+### 1.0.2
 
 - Fix README example code
 
