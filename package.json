@@ -1,8 +1,10 @@
 {
   "name": "@hanakla/rescue",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "TypeScript one-line try-catch handling helper",
   "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
   "repository": "git@github.com:hanakla/rescue.git",
   "author": "Hanakla <8597982+hanakla@users.noreply.github.com>",
   "license": "MIT",

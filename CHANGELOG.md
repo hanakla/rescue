@@ -1,3 +1,7 @@
+### 1.0.4
+
+- Fix package.json (for types and esm)
+
 ### 1.0.3
 
 - Fix published files
