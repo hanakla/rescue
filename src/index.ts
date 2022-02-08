@@ -3,6 +3,7 @@ type SuccessResult<T> = readonly [result: T, error: null] & {
   error: null;
 };
 
+// @ts-expect-error
 type FailureResult<T> = readonly [result: null, error: Error] & {
   result: null;
   error: Error;
