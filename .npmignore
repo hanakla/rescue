@@ -1,6 +1,7 @@
 .editorconfig
 .github
 src/
+deno/
 bili.config.ts
 jest.config.js
 CHANGELOG.md

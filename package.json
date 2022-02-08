@@ -13,7 +13,8 @@
     "clean-dist": "rm -rf ./dist",
     "build:declarations": "tsc --emitDeclarationOnly --declaration --outDir ./dist",
     "build:esm": "bili",
-    "build": "yarn build:declarations && yarn build:esm",
+    "post-build:deno": "cp src/index.ts deno/mod.ts",
+    "build": "yarn build:declarations && yarn build:esm && yarn post-build:deno",
     "prepublishOnly": "yarn clean-dist && yarn build"
   },
   "devDependencies": {
